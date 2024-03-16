@@ -34,7 +34,7 @@
 ## :dart: Sobre ##
 
 ```sh
-• projeto para um jogo de apostas em corridas F1 utilizando HTML, CSS e JS. 
+• projeto para um jogo de apostas em corridas F1. 
 ```
 
 ## :sparkles: Funcionalidades ##
