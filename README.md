@@ -40,10 +40,9 @@
 ## :sparkles: Funcionalidades ##
 
 
-:heavy_check_mark: Preencher formulário com dados, tais como: nome, email destinatário, assunto e mensagem;\
-:heavy_check_mark: Esses dados de texto aparecerão no email destinatário;\
-:heavy_check_mark: informações colocadas no formulário aparecerão no email destinatário;\
-:heavy_check_mark: Projeto totalmente funcional com envio de email utilizando o protocolo smtp.
+:heavy_check_mark: O jogador deve apostar acima de R$5 em um dos cinco pilotos;\
+:heavy_check_mark: Caso perca a aposta, diminui o valor apostado do seu saldo de R$100;\
+:heavy_check_mark: Caso ganhe a aposta, o valor apostado é duplicado e adicionado no saldo.
 
 ## :rocket: Tecnologias ##
  
