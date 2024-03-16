@@ -52,17 +52,17 @@ As seguintes ferramentas 🛠 foram utilizadas na construção do projeto:
 
 <table>
   <thead>
-    <th>Back-end</th>
     <th>Front-end</th>
   </thead>
   <tbody>
     <tr>
-      <td>Python</td>
       <td>Html</td>
     </tr>
     <tr>
-      <td>Django</td>
       <td>Css</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
     </tr> 
     <tr>
 
