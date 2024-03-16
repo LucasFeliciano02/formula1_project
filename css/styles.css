@@ -1,0 +1,124 @@
+/* Reset de margens e padding para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando os carros */
+.car {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+/* Cores diferentes para cada carro */
+#car1 { background-color: red; }
+#car2 { background-color: orange; }
+#car3 { background-color: yellow; }
+#car4 { background-color: green; }
+#car5 { background-color: blue; }
+
+/* Estilizando a pista de corrida */
+.track {
+    border: 10px solid #663300; /* Cor marrom para as bordas da pista */
+    background-image: url('../img/corrida.png'); /* Imagem de fundo da pista */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%; /* Largura da pista de corrida */
+    max-width: 800px; /* Largura máxima da pista de corrida */
+    height: 290px; /* Altura da pista de corrida */
+    margin: 20px auto; /* Centralizar a pista de corrida */
+    padding: 20px;
+    position: relative;
+    overflow: hidden; /* Evita que os carros ultrapassem a borda da pista */
+}
+
+/* Estilizando o contêiner de resultado */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Estilizando o texto "Parabéns, você ganhou!" */
+.win-message {
+    color: green; /* Cor verde para mensagens de vitória */
+}
+
+/* Estilizando o texto "Você perdeu a aposta" */
+.lose-message {
+    color: red; /* Cor vermelha para mensagens de perda */
+}
+
+/* Estilizando o contêiner da aposta */
+#bet {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Largura do contêiner de aposta */
+    max-width: 400px; /* Largura máxima do contêiner de aposta */
+    margin: 20px auto; /* Centralizar o contêiner de aposta */
+}
+
+/* Estilizando o rótulo da aposta */
+#aposta {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o campo de entrada da aposta */
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#amount {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Estilizando o símbolo da moeda */
+.currency {
+    padding: 8px;
+    background-color: #ccc;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+}
+
+/* Estilizando o rótulo para o seletor de pilotos */
+#bet label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Estilizando o seletor de pilotos */
+#pilot {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Estilizando o botão de apostar e correr */
+#bet button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#bet button:hover {
+    background-color: #45a049;
+}
