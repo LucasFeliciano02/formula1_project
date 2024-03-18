@@ -5,12 +5,12 @@ function startRace() {
 
     // Verifica se o valor da aposta é menor que 5
     if (betAmount < 5) {
-        alert("A aposta mínima é de R$5.");
+        alert("The minimum bet is R$5.");
         return;
     }
 
     if (playerBalance < betAmount) {
-        alert("Saldo insuficiente para fazer esta aposta.");
+        alert("Insufficient balance to place this bet.");
         return;
     }
 
@@ -37,13 +37,13 @@ function startRace() {
         resultDiv.classList.remove('win-message', 'lose-message'); // Remove todas as classes de mensagem
         if (selectedPilot === winner) {
             playerBalance += betAmount * 2; // Duplica o valor ganho
-            resultDiv.textContent = 'Parabéns! Você ganhou R$' + (betAmount * 2); // Exibe o valor duplicado
+            resultDiv.textContent = 'Congratulations! You won R$' + (betAmount * 2); // Exibe o valor duplicado
             resultDiv.classList.add('win-message');
         } else {
             playerBalance -= betAmount;
-            resultDiv.textContent = 'Você perdeu a aposta de R$' + betAmount + '.';
+            resultDiv.textContent = 'You lost the bet of R$' + betAmount + '.';
             resultDiv.classList.add('lose-message');
         }
-        document.getElementById('player-balance').textContent = 'Saldo: R$' + playerBalance;
+        document.getElementById('player-balance').textContent = 'Balance: R$' + playerBalance;
     }
 }

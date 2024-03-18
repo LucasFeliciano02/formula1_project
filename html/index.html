@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Corrida de Carros</title>
+    <title>Car Racing</title>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
 
@@ -16,21 +16,21 @@
       <div class="car" id="car5"></div>
     </div>
     <div id="bet">
-      <label id="aposta" for="amount">Valor da aposta (mínimo R$5): </label>
+      <label id="aposta" for="amount">Bet amount (minimum R$5): </label>
       <input type="number" id="amount" min="5" value="5" />
       <br />
-      <label for="pilot">Escolha o piloto: </label>
+      <label for="pilot">Choose your pilot: </label>
       <select id="pilot">
-        <option value="1">Piloto 1</option>
-        <option value="2">Piloto 2</option>
-        <option value="3">Piloto 3</option>
-        <option value="4">Piloto 4</option>
-        <option value="5">Piloto 5</option>
+        <option value="1">pilot 1</option>
+        <option value="2">pilot 2</option>
+        <option value="3">pilot 3</option>
+        <option value="4">pilot 4</option>
+        <option value="5">pilot 5</option>
       </select>
       <br />
-      <button onclick="startRace()">Apostar e Correr</button>
+      <button onclick="startRace()">Bet and Run</button>
       <div id="player-balance" style="padding: 5px; font-weight: bold">
-        Saldo: R$100
+        Balance: R$100
       </div>
     </div>
     <div id="result" class="message"></div>
