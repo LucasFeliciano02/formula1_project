@@ -75,8 +75,8 @@ As seguintes ferramentas 🛠 foram utilizadas na construção do projeto:
 ## :white_check_mark: Pré-requisitos ##
 
 
-Antes de começar 🏁, você vai precisar ter instalado em sua máquina as sequintes ferramentas:
-[Git](https://git-scm.com/downloads) e [Python](https://www.python.org/downloads/).
+Antes de começar 🏁, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
+[Git](https://git-scm.com/downloads).
 Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Code](https://code.visualstudio.com/download)
 
 
@@ -86,31 +86,16 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
 ```bash
 # Clone este repositorio
  -> git bash here
-  $ https://github.com/LucasFeliciano02/SendMail-django
+  $ https://github.com/LucasFeliciano02/formula1_project.git
 
 # Acesse a pasta do projeto que aparecerá em sua área de trabalho
  -> mouse esquerdo -> Abrir com Code
 
-# Colocar os seguintes comandos no terminal para ativar o Interpretador do python a fim de rodar o arquivo
- 1º  ->  py -m venv venv
- 2º  ->  venv\Scripts\activate.ps1  
- 3º  ->  .\venv\Scripts\activate.ps1  
-
-# Instalar bibliotecas
- -> (env) pip install django
-    (env) pip install pillow
-
-# Criar projeto
- ->  (env) django-admin startproject contactform .
-
-# Migrations
- ->  (env) python manage.py makemigrations
-     (env) python manage.py migrate
+# Baixar aa extensão
+ -> Live Server
 
 # Executar projeto
-->  (env) python manage.py runserver
-
-# Obs: Colocar as informações de email pessoal rementente em .env e sua senha para funcionar o envio de email.
+->  Abrir com live server o arquivo .HTML
 ```
 
 
