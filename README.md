@@ -1,9 +1,11 @@
 <!-- Status -->
 
+<!--
 <h4 align="center"> 
 
 	🚧  Projeto Formula 1 🚀 Em construção...  🚧
 </h4> 
+-->
 
 <hr> 
 
