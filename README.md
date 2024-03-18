@@ -5,9 +5,10 @@
 
 	🚧  Projeto Formula 1 🚀 Em construção...  🚧
 </h4> 
--->
+
 
 <hr> 
+-->
 
 <div align="center" id="top">
   <img alt="formula 1" title="formula 1" src="./img/Animacao.gif"/>
