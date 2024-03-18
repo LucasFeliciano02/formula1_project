@@ -88,7 +88,7 @@ Além disto é bom ter um editor para trabalhar com o código, tal como: [VS Cod
  -> git bash here
   $ https://github.com/LucasFeliciano02/formula1_project.git
 
-# Acesse a pasta do projeto que aparecerá em sua área de trabalho
+# Acesse a pasta do projeto que aparecerá em sua pasta
  -> mouse esquerdo -> Abrir com Code
 
 # Baixar aa extensão
