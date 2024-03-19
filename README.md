@@ -11,7 +11,7 @@
 -->
 
 <div align="center" id="top">
-  <img alt="formula 1" title="formula 1" src="./img/video.gif"/>
+  <img alt="formula 1" title="formula 1" src="./img/animacao.gif"/>
 </h1>
 
   &#xa0;
