@@ -3,12 +3,13 @@ var playerBalance = 100;
 function startRace() {
     var betAmount = parseInt(document.getElementById('amount').value);
 
-    // Verifica se o valor da aposta é menor que 5
+    // Check if the bet amount is less than 5
     if (betAmount < 5) {
-        alert("The minimum bet is R$5.");
+        alert("Minimum bet amount is $5.");
         return;
     }
 
+    // Check if the player has enough balance for this bet
     if (playerBalance < betAmount) {
         alert("Insufficient balance to place this bet.");
         return;
@@ -34,16 +35,20 @@ function startRace() {
     function announceResult() {
         var selectedPilot = parseInt(document.getElementById('pilot').value);
         var resultDiv = document.getElementById('result');
-        resultDiv.classList.remove('win-message', 'lose-message'); // Remove todas as classes de mensagem
+        resultDiv.classList.remove('win-message', 'lose-message'); // Remove all message classes
         if (selectedPilot === winner) {
-            playerBalance += betAmount * 2; // Duplica o valor ganho
-            resultDiv.textContent = 'Congratulations! You won R$' + (betAmount * 2); // Exibe o valor duplicado
+            playerBalance += betAmount * 2; // Double the winning amount
+            resultDiv.textContent = 'Congratulations! You won $' + (betAmount * 2); // Display the doubled amount
             resultDiv.classList.add('win-message');
         } else {
             playerBalance -= betAmount;
-            resultDiv.textContent = 'You lost the bet of R$' + betAmount + '.';
+            resultDiv.textContent = 'You lost the bet of $' + betAmount + '.';
             resultDiv.classList.add('lose-message');
         }
-        document.getElementById('player-balance').textContent = 'Balance: R$' + playerBalance;
+        document.getElementById('player-balance').textContent = 'Balance: $' + playerBalance;
+
+        // Display which car won the race
+        var winnerCar = document.getElementById('car' + winner);
+        resultDiv.innerHTML += '<br> Car ' + winnerCar.getAttribute('data-pilot') + ' won the race!';
     }
 }
