@@ -1,11 +1,11 @@
-/* Reset de margens e padding para todos os elementos */
+/* Reset margins and padding for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilizando os carros */
+/* Styling the cars */
 .car {
     position: relative;
     width: 50px;
@@ -13,63 +13,63 @@
     margin-bottom: 20px;
 }
 
-/* Cores diferentes para cada carro */
+/* Different colors for each car */
 #car1 { background-color: red; }
 #car2 { background-color: orange; }
 #car3 { background-color: yellow; }
 #car4 { background-color: green; }
 #car5 { background-color: blue; }
 
-/* Estilizando a pista de corrida */
+/* Styling the race track */
 .track {
-    border: 10px solid #663300; /* Cor marrom para as bordas da pista */
-    background-image: url('../img/corrida.png'); /* Imagem de fundo da pista */
+    border: 10px solid #663300; /* Brown color for track borders */
+    background-image: url('../img/corrida.png'); /* Background image for the track */
     background-size: cover;
     background-repeat: no-repeat;
-    width: 45%; /* Largura da pista de corrida */
-    max-width: 800px; /* Largura máxima da pista de corrida */
-    height: 290px; /* Altura da pista de corrida */
-    margin: 20px auto; /* Centralizar a pista de corrida */
+    width: 45%; /* Width of the race track */
+    max-width: 800px; /* Maximum width of the race track */
+    height: 290px; /* Height of the race track */
+    margin: 20px auto; /* Center the race track */
     padding: 20px;
     position: relative;
-    overflow: hidden; /* Evita que os carros ultrapassem a borda da pista */
+    overflow: hidden; /* Prevent cars from exceeding track boundary */
 }
 
-/* Estilizando o contêiner de resultado */
+/* Styling the result container */
 #result {
     margin-top: 20px;
     font-size: 20px;
     text-align: center;
 }
 
-/* Estilizando o texto "Parabéns, você ganhou!" */
+/* Styling the "Congratulations, you won!" message */
 .win-message {
-    color: green; /* Cor verde para mensagens de vitória */
+    color: green; /* Green color for win messages */
 }
 
-/* Estilizando o texto "Você perdeu a aposta" */
+/* Styling the "You lost the bet" message */
 .lose-message {
-    color: red; /* Cor vermelha para mensagens de perda */
+    color: red; /* Red color for loss messages */
 }
 
-/* Estilizando o contêiner da aposta */
+/* Styling the bet container */
 #bet {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
-    width: 80%; /* Largura do contêiner de aposta */
-    max-width: 400px; /* Largura máxima do contêiner de aposta */
-    margin: 20px auto; /* Centralizar o contêiner de aposta */
+    width: 80%; /* Width of the bet container */
+    max-width: 400px; /* Maximum width of the bet container */
+    margin: 20px auto; /* Center the bet container */
 }
 
-/* Estilizando o rótulo da aposta */
+/* Styling the bet label */
 #aposta {
     display: block;
     margin-bottom: 10px;
 }
 
-/* Estilizando o campo de entrada da aposta */
+/* Styling the bet input field */
 .input-wrapper {
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@
     font-size: 16px;
 }
 
-/* Estilizando o símbolo da moeda */
+/* Styling the currency symbol */
 .currency {
     padding: 8px;
     background-color: #ccc;
@@ -91,13 +91,13 @@
     font-size: 16px;
 }
 
-/* Estilizando o rótulo para o seletor de pilotos */
+/* Styling the label for pilot selector */
 #bet label {
     margin-bottom: 10px;
     display: block;
 }
 
-/* Estilizando o seletor de pilotos */
+/* Styling the pilot selector */
 #pilot {
     padding: 8px;
     border-radius: 5px;
@@ -107,7 +107,7 @@
     margin-bottom: 10px;
 }
 
-/* Estilizando o botão de apostar e correr */
+/* Styling the bet and race button */
 #bet button {
     background-color: #4CAF50;
     color: white;
