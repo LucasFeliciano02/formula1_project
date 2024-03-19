@@ -8,17 +8,18 @@
 /* Styling the cars */
 .car {
     position: relative;
-    width: 50px;
-    height: 30px;
+    width: 42px;
+    height: 33px;
     margin-bottom: 20px;
+    background-size: cover;
 }
 
 /* Different colors for each car */
-#car1 { background-color: red; }
-#car2 { background-color: orange; }
-#car3 { background-color: yellow; }
-#car4 { background-color: green; }
-#car5 { background-color: blue; }
+#car1 { background-image: url('../img/carro1.png') }
+#car2 { background-image: url('../img/carro2.png') }
+#car3 { background-image: url('../img/carro3.png') }
+#car4 { background-image: url('../img/carro4.png') }
+#car5 { background-image: url('../img/carro5.png') }
 
 /* Styling the race track */
 .track {
